@@ -8,3 +8,5 @@ Quick labelling with streamlit and QDrant. First I'll support NLP, then I'll thi
 
 See Kern.AI for a full blown solution using very similar technology behind the scenes. This tool is meant to be simple enough to act as an intro to vector databases.
 
+Similarly, koaning/bulk is excellent, but what if UMAP (insert alternative dimensionality reduction technique here) loses all of the nuance, and high-level visualizations fail to provide value for your dataset? 
+
