@@ -8,6 +8,9 @@ st.write('# Encoding Dataset')
 
 run_encoding = st.button('Encode')
 
+# dataset = load_dataset('ag_news')
+# dataset_df = pd.DataFrame(dataset['train'])
+
 if run_encoding: 
     ag_news_df = pd.read_csv('./ag_news.csv')
     sentences = list(ag_news_df['text'])

@@ -108,6 +108,7 @@ response = requests.post(url, json=data).json()
 
         st.write('# Response')
         for response_id in response_ids:
+            st.write(response_id)
             st.write(df['text'].iloc[response_id])
             st.write('--------------------------')
 
