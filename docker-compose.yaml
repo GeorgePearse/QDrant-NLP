@@ -7,4 +7,23 @@ services:
       - "6333:6333"
     volumes:
       - ./path/to/data:/qdrant/storage
-      - ./development.yaml:/qdrant/config/development.yaml
+      - ./qdrant/evelopment.yaml:/qdrant/config/development.yaml
+
+  # very much psuedo-code
+  interface:
+    build: 
+    image: qdrant/qdrant:master
+    ports:
+      - "8501":8501"
+    volumes:
+      - ./queries:/interface/saved_queries
+      - ./results:/interface/results
+
+  endpoint:
+    build: 
+    image: qdrant/qdrant:master
+    ports:
+      - "8501":8501"
+    volumes:
+      - ./queries:/interface/saved_queries
+      - ./results:/interface/results
