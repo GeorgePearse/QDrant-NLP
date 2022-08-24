@@ -33,3 +33,23 @@ To apply these tools to a multi-modal dataset you would only need to concatenate
 NB: Consider calling this thing grouper if you take it more seriously and upgrade the components
 
 Might make sense to apply a similarity cut off instead of the nearest K. 
+
+# To Run:
+
+Currently clone the repo and then run. From 1 terminal:
+```
+docker-compose up
+```
+To start the QDrant vector database. 
+From another, run:
+```
+streamlit run intro.py
+```
+For the streamlit UI.
+If you want the FastAPI endpoints which just provide a way to access the results of your queries by name it's
+```
+uvicorn api:app --reload
+```
+(think --reload is for dev only)
+
+But I'll be making this available on DockerHub soon to simplify all of that 
