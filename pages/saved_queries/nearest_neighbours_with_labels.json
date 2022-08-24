@@ -1,7 +1,0 @@
-{
-    "positive": ["c74fead7-78db-449a-abd7-8bab4b459e64"],
-    "negative": [],
-    "top": 10,
-    "with_payload": true,
-    "filter": {"must_not": [{"is_empty": {"key": "classes"}}]}
-}

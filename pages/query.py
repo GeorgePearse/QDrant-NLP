@@ -86,6 +86,15 @@ response = requests.post(url, json=data).json()
         response_df = pd.json_normalize(response["result"])
         st.dataframe(response_df)
 
+        if save_query_button:
+            save_query(
+                saved_queries_path,
+                query_results_path,
+                query_name,
+                data,
+                response_df,
+            )
+
         st.download_button(
             label="Download data as CSV",
             data=response_df.to_csv().encode("utf-8"),
