@@ -11,7 +11,7 @@ You can achieve almost half of this tool just via their swagger UI, but obviousl
 
 The toy logo is somewhere between a magnifying glass for how the tooling enables you to really focus in on a specific data subset, and a classic bayesian graph for if I get carried away enough to try to add active learning in. 
 
-Finding the documentation for sentence-transformers via Google Search drove me mad, it lives here https://www.sbert.net/docs/hugging_face.html
+Finding the documentation for hugging-face sentence-transformers via Google Search drove me mad, it lives here https://www.sbert.net/docs/hugging_face.html
 
 Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP, then I'll think about adding image support (which is where this idea came from).
 
