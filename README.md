@@ -12,3 +12,5 @@ See Kern.AI for a full blown solution using very similar technology behind the s
 Similarly, koaning/bulk is excellent, but what if UMAP (insert alternative dimensionality reduction technique here) loses all of the nuance, and high-level visualizations fail to provide value for your dataset? 
 
 I also wanted to give FastAPI a tiny test run, so for each query (post request) you save, you can receive its results by hitting the FastAPI endpoint with the name of the query.
+
+To apply these tools to a multi-modal dataset you would only need to concatenate the embeddings for each component and away you go with all the same technqiues. 
