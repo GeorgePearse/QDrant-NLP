@@ -1,6 +1,8 @@
 # QDrant-NLP
 Keeping the Human in the LOOP. I am not a developer at QDrant, nor directly associated with them, but I think they've built something excellent, and thus far under-appreciated. This repo is here to act as a demo more than anything else.
 
+https://github.com/qdrant/qdrant
+
 I'll call it done once it's tidy and available on DockerHub. Just enough that you could maybe use it to run your own POC without any additional code. 
 
 You can achieve almost half of this tool just via their swagger UI, but obviously, that's designed for hitting simple APIs, not data-centric AI workflows, so it's missing a few useful components. This work is written up in more depth here https://medium.com/@george.pearse.
