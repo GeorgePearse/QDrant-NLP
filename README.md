@@ -5,6 +5,8 @@ Keeping the Human in the LOOP. I am not a developer at QDrant, nor directly asso
 
 The toy logo is somewhere between a magnifying class for how the tooling enables you to really focus in on a specific data subset, and a classic bayesian graph for if I get carried away enough to try to add active learning in. 
 
+Finding the documentation for sentence-transformers via Google Search drove me mad, it lives here https://www.sbert.net/docs/hugging_face.html
+
 Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP, then I'll think about adding image support (which is where this idea came from).
 
 - [ ] Supports interactively creating and storing queries for the QDrant Vector Database for an NLP dataset.
