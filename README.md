@@ -5,7 +5,7 @@ You can achieve almost half of this tool just via their swagger UI, but obviousl
  
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/47161914/186397107-5706db97-6404-40fd-8ce1-b42bb83249c2.png">
 
-The toy logo is somewhere between a magnifying class for how the tooling enables you to really focus in on a specific data subset, and a classic bayesian graph for if I get carried away enough to try to add active learning in. 
+The toy logo is somewhere between a magnifying glass for how the tooling enables you to really focus in on a specific data subset, and a classic bayesian graph for if I get carried away enough to try to add active learning in. 
 
 Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP, then I'll think about adding image support (which is where this idea came from).
 
