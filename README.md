@@ -15,9 +15,11 @@ Finding the documentation for sentence-transformers via Google Search drove me m
 
 Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP, then I'll think about adding image support (which is where this idea came from).
 
-- [ ] Supports interactively creating and storing queries for the QDrant Vector Database for an NLP dataset.
-- [ ] For each query, show the positives, show the negatives, then display the results.
+- [X] Supports interactively creating and storing queries for the QDrant Vector Database for an NLP dataset.
+- [X] For each query, show the positives, show the negatives, then display the results.
 - [ ] Maybe support Active Learning (eventually) 
+
+![Uploading image.png…]()
 
 See Kern.AI for a full blown solution using very similar technology behind the scenes. This tool is meant to be simple enough to act as an intro to vector databases. You can write and see the requests, just as you would via the python API. 
 
