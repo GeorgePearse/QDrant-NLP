@@ -7,7 +7,7 @@ Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP,
 - [ ] For each query, show the positives, show the negatives, then display the results.
 - [ ] Maybe support Active Learning (eventually) 
 
-See Kern.AI for a full blown solution using very similar technology behind the scenes. This tool is meant to be simple enough to act as an intro to vector databases.
+See Kern.AI for a full blown solution using very similar technology behind the scenes. This tool is meant to be simple enough to act as an intro to vector databases. You can write and see the requests, just as you would via the python API. 
 
 Similarly, koaning/bulk is excellent, but what if UMAP (insert alternative dimensionality reduction technique here) loses all of the nuance, and high-level visualizations fail to provide value for your dataset? 
 
