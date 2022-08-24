@@ -1,6 +1,9 @@
 # QDrant-NLP
 Keeping the Human in the LOOP. I am not a developer at QDrant, nor directly associated with them, but I think they've built something excellent, and thus far under-appreciated. This repo is here to act as a demo more than anything else.
 
+<img width="202" alt="image" src="https://user-images.githubusercontent.com/47161914/186397107-5706db97-6404-40fd-8ce1-b42bb83249c2.png">
+
+
 Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP, then I'll think about adding image support (which is where this idea came from).
 
 - [ ] Supports interactively creating and storing queries for the QDrant Vector Database for an NLP dataset.
