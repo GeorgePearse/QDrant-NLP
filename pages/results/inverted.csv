@@ -1,0 +1,11 @@
+,id,version,score,vector,payload._id,payload.tags,payload.uuid,payload.view,payload.classes
+0,4db24e87-e5aa-4cef-bfad-b1cd01503d57,3676,0.9882847,,4db24e87-e5aa-4cef-bfad-b1cd01503d57,"['nhs', 'Dartford', 'live']",4db24e87-e5aa-4cef-bfad-b1cd01503d57,PA,
+1,48e55bb1-99f7-418c-b162-89ca10a60cba,3455,0.98566014,,48e55bb1-99f7-418c-b162-89ca10a60cba,"['nhs', 'Dartford', 'live']",48e55bb1-99f7-418c-b162-89ca10a60cba,PA,
+2,1d7ad9e3-434f-43b8-b734-0a6f41756cca,1394,0.9855213,,1d7ad9e3-434f-43b8-b734-0a6f41756cca,"['nhs', 'Barking', 'live', 'expert']",1d7ad9e3-434f-43b8-b734-0a6f41756cca,PA,['Normal']
+3,dc4f0a1d-8697-45c7-9701-60efbc663a48,10325,0.9853628,,dc4f0a1d-8697-45c7-9701-60efbc663a48,"['nhs', 'Dartford', 'live']",dc4f0a1d-8697-45c7-9701-60efbc663a48,PA,
+4,adb4cc6d-f7c4-4979-b350-39c1b38ffc20,8162,0.9853116,,adb4cc6d-f7c4-4979-b350-39c1b38ffc20,"['nhs', 'Dartford', 'live']",adb4cc6d-f7c4-4979-b350-39c1b38ffc20,PA,
+5,0b189d2d-f3c4-4ccf-862b-71a016543d11,531,0.98429036,,0b189d2d-f3c4-4ccf-862b-71a016543d11,"['nhs', 'Dartford', 'live']",0b189d2d-f3c4-4ccf-862b-71a016543d11,PA,
+6,4e18a2fb-d9a7-4868-b9f1-1693bdd32928,3697,0.9841084,,4e18a2fb-d9a7-4868-b9f1-1693bdd32928,"['nhs', 'Dartford', 'live']",4e18a2fb-d9a7-4868-b9f1-1693bdd32928,PA,
+7,62dca7f2-a29f-4fd3-8b2d-7db6e8ae2aae,4678,0.98371816,,62dca7f2-a29f-4fd3-8b2d-7db6e8ae2aae,"['nhs', 'St Helens', 'live']",62dca7f2-a29f-4fd3-8b2d-7db6e8ae2aae,PA,
+8,f0bcf04a-11d5-4378-a82e-f4c5c5860da6,11262,0.98368144,,f0bcf04a-11d5-4378-a82e-f4c5c5860da6,"['nhs', 'Dartford', 'live']",f0bcf04a-11d5-4378-a82e-f4c5c5860da6,PA,
+9,93658e71-0c85-4502-9c2d-5ea5ca8bf05b,6935,0.9833039,,93658e71-0c85-4502-9c2d-5ea5ca8bf05b,"['nhs', 'St Helens', 'live']",93658e71-0c85-4502-9c2d-5ea5ca8bf05b,PA,

@@ -1,0 +1,17 @@
+{
+    "positive": [
+        "001ebf3c-1e72-43d5-9450-9f2d9f0ba8e8",
+        "1abc65d2-6b26-4de5-8c52-714b7e20a5fa",
+        "4f955e26-84b6-47cb-89ca-0b933b44c29f",
+        "18ca8231-584a-4c18-99d8-04eda3936d6f"
+    ],
+    "negative": [
+        "c3eb8019-73be-4e23-8181-fedbfe1a0e24",
+        "f5ea3bfe-d17e-4c89-8c70-d2673cd69de5",
+        "81cbfab7-5c1f-4bfb-97e4-b6d2caa8910f",
+        "e3a8e058-9dd9-4a4f-b7f0-ebc2f37af392",
+        "c6e0b3e6-e6ad-4fba-aebf-29775a6a9501"
+    ],
+    "top": 20,
+    "with_payload": true
+}
