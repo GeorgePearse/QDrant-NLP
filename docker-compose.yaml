@@ -7,4 +7,3 @@ services:
       - "6333:6333"
     volumes:
       - ./path/to/data:/qdrant/storage
-      - ./development.yaml:/qdrant/config/development.yaml
