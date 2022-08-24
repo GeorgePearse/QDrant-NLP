@@ -19,7 +19,8 @@ Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP,
 - [X] For each query, show the positives, show the negatives, then display the results.
 - [ ] Maybe support Active Learning (eventually) 
 
-![Uploading image.png…]()
+<img width="1331" alt="image" src="https://user-images.githubusercontent.com/47161914/186453861-e4c2b2e6-6a1d-4039-b044-8029d97dfdb5.png">
+
 
 See Kern.AI for a full blown solution using very similar technology behind the scenes. This tool is meant to be simple enough to act as an intro to vector databases. You can write and see the requests, just as you would via the python API. 
 
