@@ -1,8 +1,8 @@
 # QDrant-NLP
 Keeping the Human in the LOOP. I am not a developer at QDrant, nor directly associated with them, but I think they've built something excellent, and thus far under-appreciated. This repo is here to act as a demo more than anything else.
 
-You can achieve almost half of this tool just via their swagger UI, but obviously, that's designed for hitting simple APIs, not data-centric AI workflows, so it's missing a few useful components. 
-
+You can achieve almost half of this tool just via their swagger UI, but obviously, that's designed for hitting simple APIs, not data-centric AI workflows, so it's missing a few useful components. This work is written up in more depth here https://medium.com/@george.pearse.
+ 
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/47161914/186397107-5706db97-6404-40fd-8ce1-b42bb83249c2.png">
 
 The toy logo is somewhere between a magnifying class for how the tooling enables you to really focus in on a specific data subset, and a classic bayesian graph for if I get carried away enough to try to add active learning in. 
