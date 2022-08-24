@@ -15,9 +15,19 @@ Finding the documentation for hugging-face sentence-transformers via Google Sear
 
 Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP, then I'll think about adding image support (which is where this idea came from).
 
+## Features
+
 - [X] Supports interactively creating and storing queries for the QDrant Vector Database for an NLP dataset.
 - [X] For each query, show the positives, show the negatives, then display the results.
 - [ ] Maybe support Active Learning (eventually). Can have a two part system, one part using Active Learning to optimise the similarity search, the other to optimize downstream finetuning. Or one to update which datapoint a nearest neighbour approach is least certain about (because this can be almost instantly updated) and another to correct the model which generates the embeddings.
+- [ ] Enable the downloading of datasets direct from hugging-face (to embeddings)
+- [ ] Loading sign while generating embeddings.
+- [ ] SQLiteDB to store the query results, and the names of the queries + maybe run heuristics based stuff like you did on the MIMIC Dataset.
+
+
+## Improving Deployment Experience
+
+- [ ] One docker-compose file for streamlit, QDrant and FastAPI
 
 <img width="1331" alt="image" src="https://user-images.githubusercontent.com/47161914/186453861-e4c2b2e6-6a1d-4039-b044-8029d97dfdb5.png">
 
