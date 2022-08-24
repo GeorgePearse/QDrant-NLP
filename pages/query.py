@@ -95,12 +95,14 @@ response = requests.post(url, json=data).json()
 
         st.write('# Positives')
         for positive_id in positive_ids:
+            st.write(positive_id)
             st.write(df['text'].iloc[positive_id])
             st.write('--------------------------')
 
         if len(negative_ids) != 0:
             st.write('# Negatives')
             for negative_id in negative_ids:
+                st.write(negative_id)
                 st.write(df['text'].iloc[negative_id])
                 st.write('--------------------------')
 
