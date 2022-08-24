@@ -86,32 +86,6 @@ response = requests.post(url, json=data).json()
         response_df = pd.json_normalize(response["result"])
         st.dataframe(response_df)
 
-        pngs, instance_uuids, metadata_list = prep_display_content(
-            ml_dataset,
-            response_df,
-        )
-        logger.info(len(pngs))
-        skipping_elements = range(len(pngs) // 2)
-        logger.info(list(skipping_elements))
-        for counter in skipping_elements:
-            cols = st.columns(4)
-            cols[0].image(pngs[counter * 2], caption=instance_uuids[counter * 2])
-            cols[1].dataframe(data=metadata_list[counter * 2])
-            cols[2].image(
-                pngs[(counter * 2) + 1],
-                caption=instance_uuids[(counter * 2) + 1],
-            )
-            cols[3].dataframe(data=metadata_list[(counter * 2) + 1])
-
-        if save_query_button:
-            save_query(
-                saved_queries_path,
-                query_results_path,
-                query_name,
-                data,
-                response_df,
-            )
-
         st.download_button(
             label="Download data as CSV",
             data=response_df.to_csv().encode("utf-8"),
