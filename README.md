@@ -1,5 +1,5 @@
-# hilly
-Human in the LOOP
+# QDrant-NLP
+Keeping the Human in the LOOP. I am not a developer at QDrant, nor directly associated with them, but I think they've built something excellent, and thus far under-appreciated. This repo is here to act as a demo more than anything else.
 
 Quick labelling with streamlit and QDrant. First I'll support NLP, then I'll think about adding image support (which is where this idea came from).
 
