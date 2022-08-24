@@ -52,4 +52,4 @@ uvicorn api:app --reload
 ```
 (think --reload is for dev only)
 
-But I'll be making this available on DockerHub soon to simplify all of that 
+But I'll be making this available on DockerHub soon to simplify all of that. It'll also be available via Streamlit cloud and hopefully make it into the Streamlit Gallery.
