@@ -26,3 +26,5 @@ Similarly, koaning/bulk is excellent, but what if UMAP (insert alternative dimen
 I also wanted to give FastAPI a tiny test run, so for each query (post request) you save, you can receive its results by hitting the FastAPI endpoint with the name of the query.
 
 To apply these tools to a multi-modal dataset you would only need to concatenate the embeddings for each component and away you go with all the same technqiues. 
+
+NB: Consider calling this thing grouper if you take it more seriously and upgrade the components

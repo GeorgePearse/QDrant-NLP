@@ -49,6 +49,8 @@ query_name = st.text_input("Query Name (For Saving)")
 
 choice = pick_query(saved_queries_path)
 
+df = pd.read_csv('./ag_news.csv')
+
 with open(f"{saved_queries_path}/{choice}.json") as f:
     selected_query = json.load(f)
     logger.info(f"{selected_query} worked")
@@ -70,6 +72,9 @@ if st.button("Run Query"):
     # have no string content, and error.
     data = json.loads(string_query)
 
+    positive_ids = data['positive']
+    negative_ids = data['negative']
+
     try:
         response = requests.post(url, json=data).json()
 
@@ -85,6 +90,25 @@ response = requests.post(url, json=data).json()
 
         response_df = pd.json_normalize(response["result"])
         st.dataframe(response_df)
+
+        response_ids = list(response_df['id'])
+
+        st.write('# Positives')
+        for positive_id in positive_ids:
+            st.write(df['text'].iloc[positive_id])
+            st.write('--------------------------')
+
+        if len(negative_ids) != 0:
+            st.write('# Negatives')
+            for negative_id in negative_ids:
+                st.write(df['text'].iloc[negative_id])
+                st.write('--------------------------')
+
+        st.write('# Response')
+        for response_id in response_ids:
+            st.write(df['text'].iloc[response_id])
+            st.write('--------------------------')
+
 
         if save_query_button:
             save_query(
