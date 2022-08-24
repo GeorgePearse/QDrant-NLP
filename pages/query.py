@@ -8,7 +8,6 @@ import pandas as pd
 
 from utils import (
     pick_query,
-    prep_display_content,
     save_query,
 )
 
@@ -21,8 +20,7 @@ from config import (
     vector_db_host,
     saved_queries_path,
     query_results_path,
-    ml_dataset,
-)
+ )
 
 logging.root.setLevel(LOG_LEVEL)
 formatter = ColoredFormatter(LOGFORMAT)
