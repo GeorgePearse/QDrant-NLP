@@ -31,7 +31,7 @@ async def root(
     with open(f"{saved_queries}/{query_name}.json") as f:
         selected_query = json.load(f)
 
-    collection_name = "cxr-metadata-cosine"
+    collection_name = "ag-news-cosine"
     request = f"collections/{collection_name}/points/recommend"
     url = f"{vector_db_host}/{request}"
     response = requests.post(url, json=selected_query).json()
