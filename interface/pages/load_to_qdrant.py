@@ -6,14 +6,12 @@ import numpy as np
 
 st.write('# Load to QDrant Collection')
 
-qdrant_client = QdrantClient(host="localhost", port=6333)
+qdrant_client = QdrantClient(host="192.168.54.124", port=6333)
 
 batch_size = 32
 collection_name = 'ag-news-collection'
 
-dataset_options = ['ag_news']
-selected_dataset = st.selectbox('Selected Dataset', dataset_options)
-vectors = np.load(f'./data/{selected_dataset}.npy')
+vectors = np.load(f'./data/ag_news_embeddings.npy')
 
 insert_into_collection = st.button('Insert into Collection')
 
