@@ -2,7 +2,6 @@
 
 import json
 import logging
-import os
 
 import pandas as pd
 
@@ -49,7 +48,7 @@ query_name = st.text_input("Query Name (For Saving)")
 
 choice = pick_query(saved_queries_path)
 
-df = pd.read_csv('./ag_news.csv')
+df = pd.read_csv('./data/ag_news.csv')
 
 with open(f"{saved_queries_path}/{choice}.json") as f:
     selected_query = json.load(f)

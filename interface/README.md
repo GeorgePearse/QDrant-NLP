@@ -30,7 +30,9 @@ I also wanted to give FastAPI a tiny test run, so for each query (post request) 
 
 To apply these tools to a multi-modal dataset you would only need to concatenate the embeddings for each component and away you go with all the same technqiues. 
 
-NB: Consider calling this thing grouper if you take it more seriously and upgrade the components
+NB: Other names 
+* Consider calling this thing grouper if you take it more seriously and upgrade the components
+* Or, carve-n-serve (if people actually liked the fastapi component). Carving up the data into small chunks.
 
 Might make sense to apply a similarity cut off instead of the nearest K. 
 

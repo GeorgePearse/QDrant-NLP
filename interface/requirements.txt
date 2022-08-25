@@ -1,4 +1,5 @@
-streamlit
+streamlit==1.11.0
 qdrant-client
-pandas
+pandas==1.2.4
 requests
+colorlog

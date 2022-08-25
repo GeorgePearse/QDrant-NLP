@@ -9,7 +9,6 @@ from config import fast_api_host, saved_queries_path
 
 st.write("# API Interface")
 
-
 selected_query = pick_query(saved_queries_path)
 selected_json_format = get_json_formats_select_box()
 

@@ -15,7 +15,7 @@ sample_size = st.text_input('Sample Size')
 sample_size = 6000
 
 if run_encoding: 
-    ag_news_df = pd.read_csv('./ag_news.csv')
+    ag_news_df = pd.read_csv('./data/ag_news.csv')
     sentences = list(ag_news_df['text'])
     model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 

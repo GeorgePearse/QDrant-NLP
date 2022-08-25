@@ -9,7 +9,6 @@ services:
       - ./path/to/data:/qdrant/storage
       - ./qdrant/development.yaml:/qdrant/config/development.yaml
 
-  # very much psuedo-code
   interface:
     build:
       context: ./interface
@@ -18,16 +17,17 @@ services:
     ports:
       - "8501:8501"
     volumes:
-      - ./queries:/interface/queries
-      - ./results:/interface/results
+      - ./queries:/app/queries
+      - ./results:/app/results
+      - ./data:/app/data
 
-  api:
-    build:
-      context: ./endpoint
-      dockerfile: ./Dockerfile
-    container_name: api
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./queries:/interface/queries
-      - ./results:/interface/results
+  # api:
+  #   build:
+  #     context: ./endpoint
+  #     dockerfile: ./Dockerfile
+  #   container_name: endpoint
+  #   ports:
+  #     - "8000:8000"
+  #   volumes:
+  #     - ./queries:/app/queries
+  #     - ./results:/appresults

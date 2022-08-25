@@ -1,15 +1,8 @@
 # From https://gist.github.com/robwalton/d985ffd0b3f319919f3d79da7873d762
 
-import json
 import logging
-import os
 
 import pandas as pd
-
-from utils import (
-    pick_query,
-    save_query,
-)
 
 LOG_LEVEL = logging.DEBUG
 LOGFORMAT = (
@@ -49,16 +42,6 @@ request = f"collections/{collection_name}/points/scroll"
 url = f"{vector_db_host}/{request}"
 
 data = {
-    # "filter": {
-    #     "must": [
-    #         {
-    #             "key": "color",
-    #             "match": {
-    #                 "value": "red"
-    #             }
-    #         }
-    #     ]
-    # },
     "limit": 10,
     "with_payload": True,
     "with_vector": False

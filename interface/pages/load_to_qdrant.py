@@ -10,7 +10,7 @@ qdrant_client = QdrantClient(host="localhost", port=6333)
 
 batch_size = 32
 
-vectors = np.load('ag_news_embeddings.npy')
+vectors = np.load('./data/ag_news_embeddings.npy')
 
 collection_name = 'ag-news-collection'
 

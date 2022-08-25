@@ -4,9 +4,13 @@ from pandas.core.frame import DataFrame
 import pandas as pd
 import json
 import os
-
+import logging
 
 def pick_query(saved_queries_path):
+    navigation_one = os.listdir('..')
+    navigation_two = os.listdir('.')
+    logging.info(navigation_one)
+    logging.info(navigation_two)
     examples = os.listdir(saved_queries_path)
     examples_clean = [example.replace(".json", "") for example in examples]
     return st.selectbox("Examples", examples_clean)
