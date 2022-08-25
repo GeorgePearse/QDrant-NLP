@@ -11,19 +11,23 @@ services:
 
   # very much psuedo-code
   interface:
-    build: 
-    image: qdrant/qdrant:master
+    build:
+      context: ./interface
+      dockerfile: ./Dockerfile
+    container_name: interface
     ports:
       - "8501":8501"
     volumes:
-      - ./queries:/interface/saved_queries
+      - ./queries:/interface/queries
       - ./results:/interface/results
 
-  endpoint:
-    build: 
-    image: qdrant/qdrant:master
+  api:
+    build:
+      context: ./endpoint
+      dockerfile: ./Dockerfile
+    container_name: api
     ports:
-      - "8501":8501"
+      - "8000:8000"
     volumes:
-      - ./queries:/interface/saved_queries
+      - ./queries:/interface/queries
       - ./results:/interface/results
