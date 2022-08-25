@@ -4,12 +4,11 @@ import os
 import pandas as pd
 import requests
 from fastapi import FastAPI
-from config import (
-    vector_db_host,
-)
+import os
+
+vector_db_host = os.environ.get('VECTOR_DB_HOST', 'http:localhost:6333')
 
 app = FastAPI()
-
 
 @app.get("/query/{query_name}/{json_format}")
 async def root(
