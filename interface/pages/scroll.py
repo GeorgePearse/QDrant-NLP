@@ -27,6 +27,11 @@ import streamlit as st
 
 
 st.markdown("# Run and Save Queries")
+st.write("""
+The scroll endpoint enables you to browse through raw data,
+it is only in this app for the sake of occasional debuggin wrt the 
+data structure.
+""")
 
 collections = [
     record["name"]
