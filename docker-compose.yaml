@@ -7,7 +7,7 @@ services:
       - "6333:6333"
     volumes:
       - ./path/to/data:/qdrant/storage
-      - ./qdrant/evelopment.yaml:/qdrant/config/development.yaml
+      - ./qdrant/development.yaml:/qdrant/config/development.yaml
 
   # very much psuedo-code
   interface:

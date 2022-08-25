@@ -1,9 +1,7 @@
-import boto3
 import io
 import streamlit as st
 from pandas.core.frame import DataFrame
 import pandas as pd
-import logging
 import json
 import os
 
