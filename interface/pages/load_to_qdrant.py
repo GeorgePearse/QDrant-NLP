@@ -28,11 +28,13 @@ if insert_into_collection:
 
     st.write('Recreated Collection')
 
-    qdrant_client.upload_collection(
-        collection_name=collection_name,
-        vectors=vectors,  # batch_of_vectors,
-        ids=None,  # Let client auto-assign sequential ids
-        batch_size=batch_size,
-        parallel=2,
-    )
+
+    with st.spinner("One second.."):
+        qdrant_client.upload_collection(
+            collection_name=collection_name,
+            vectors=vectors,  # batch_of_vectors,
+            ids=None,  # Let client auto-assign sequential ids
+            batch_size=batch_size,
+            parallel=2,
+        )
     st.write('Uploaded Collection')
