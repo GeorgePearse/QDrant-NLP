@@ -5,7 +5,7 @@ import logging
 try:
   vector_db_host = os.environ["VECTOR_DB_HOST"]
 except Exception as e:
-  logging.error(f'Please specify IP of host machine. Exception is {e}")
+  logging.error(f'Please specify IP of host machine in a .env file for docker-compose. \n Exception is {e}")
                 
 query_results_path = "./results/"
 saved_queries_path = "./queries/"
