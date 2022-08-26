@@ -28,6 +28,7 @@ Quick labelling with hugging-face, streamlit and QDrant. First I'll support NLP,
 ## Improving Deployment Experience
 
 - [ ] One docker-compose file for streamlit, QDrant and FastAPI
+- [ ] Make the docker images available via DockerHub
 
 <img width="1331" alt="image" src="https://user-images.githubusercontent.com/47161914/186453861-e4c2b2e6-6a1d-4039-b044-8029d97dfdb5.png">
 
