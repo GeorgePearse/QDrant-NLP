@@ -5,7 +5,7 @@ https://github.com/qdrant/qdrant
 
 I'll call it done once it's tidy and available on DockerHub. Just enough that you could maybe use it to run your own POC without any additional code. 
 
-You can achieve almost half of this tool just via their swagger UI, but obviously, that's designed for hitting simple APIs, not data-centric AI workflows, so it's missing a few useful components. This work is written up in more depth here https://medium.com/@george.pearse.
+You can achieve almost half of this tool just via their swagger UI, but obviously, that's designed for hitting simple APIs, not data-centric AI workflows, so it's missing a few useful components. This work is written up in more depth here https://medium.com/@george.pearse (vector databases part 2).
  
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/47161914/186397107-5706db97-6404-40fd-8ce1-b42bb83249c2.png">
 
